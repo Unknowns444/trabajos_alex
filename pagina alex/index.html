@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Juan Diego Gómez</title>
+</head>
+<body>
+
+  <div class="navbar">
+    <table>
+      <tr>
+        <td class="nav-logo">
+          <span class="bold">Juan Diego</span>
+          <span class="light"> Gómez</span>
+        </td>
+        <td class="nav-links">
+          <a href="#">Inicio</a>
+          <a href="#">¿Quien soy?</a>
+          <a href="#">Proyectos</a>
+        </td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="section-quiensoy">
+    <table>
+      <tr>
+        <td class="td-image">
+          <img
+            src="./image.png"alt=""
+          />
+        </td>
+        <td class="td-text">
+          <h2>¿Quien soy?</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Esse nisi
+            adipisci provident eius enim id eos fugit odit facere vitae. Sit sequi
+            praesentium, officiis rerum dicta. Deserunt ipsam officia neque!
+          </p>
+          <a href="#" class="btn-leer">Leér más</a>
+        </td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="section-perfil">
+    <table>
+      <tr>
+        <td class="avatar-wrapper">
+          <img src="./image copy.png"alt=""
+          />
+        </td>
+      </tr>
+      <tr>
+        <td class="perfil-quote">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis odio
+          amet nulla ad nobis minima doloribus inventore, aspernatur distinctio
+          dicta ipsam fugit suscipit ullam architecto eos molestias placeat rerum
+          facere.
+        </td>
+      </tr>
+      <tr>
+        <td class="perfil-author">- Juan Diego Gómez</td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="section-proyectos">
+    <h2>Mis proyectos</h2>
+
+    <table class="proyectos-table">
+      <tr>
+
+        <td class="proyecto-card">
+          <img
+            src="https://images.unsplash.com/photo-1561070791-2526d30994b5?w=400&h=220&fit=crop"
+            alt="Proyecto 1"
+          />
+          <div class="proyecto-card-body">
+            <h3>Proyecto 1</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Cupiditate sit nisi beatae amet blanditiis placeat repellat
+              minima assumenda, animi impedit totam, voluptatum aut nihil alias.
+            </p>
+          </div>
+        </td>
+
+        <td class="proyecto-card">
+          <img
+            src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=400&h=220&fit=crop"
+            alt="Proyecto 2"
+          />
+          <div class="proyecto-card-body">
+            <h3>Proyecto 2</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Cupiditate sit nisi beatae amet blanditiis placeat repellat
+              minima assumenda, animi impedit totam, voluptatum aut nihil alias.
+            </p>
+          </div>
+        </td>
+
+        <td class="proyecto-card">
+          <img
+            src="https://images.unsplash.com/photo-1484788984921-03950022c9ef?w=400&h=220&fit=crop"
+            alt="Proyecto 3"
+          />
+          <div class="proyecto-card-body">
+            <h3>Proyecto 3</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Cupiditate sit nisi beatae amet blanditiis placeat repellat
+              minima assumenda, animi impedit totam, voluptatum aut nihil alias.
+            </p>
+          </div>
+        </td>
+
+        <!-- Proyecto 4 -->
+        <td class="proyecto-card">
+          <img
+            src="https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=400&h=220&fit=crop"
+            alt="Proyecto 4"
+          />
+          <div class="proyecto-card-body">
+            <h3>Proyecto 4</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Cupiditate sit nisi beatae amet blanditiis placeat repellat
+              minima assumenda, animi impedit totam, voluptatum aut nihil alias.
+            </p>
+          </div>
+        </td>
+
+      </tr>
+    </table>
+  </div>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family:Arial, Helvetica, sans-serif;
+      background: #ffffff;
+      color: #333;
+    }
+
+    .navbar {
+      background-color: #3a3a3a;
+      width: 100%;
+    }
+
+    .navbar table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    .navbar td {
+      padding: 16px 32px;
+      vertical-align: middle;
+    }
+
+    .nav-logo {
+      text-align: left;
+    }
+
+    .nav-logo span.bold {
+      font-weight: 900;
+      color: #ffffff;
+      font-size: 1.2rem;
+    }
+
+    .nav-logo span.light {
+      font-weight: 400;
+      color: #ffffff;
+      font-size: 1.2rem;
+    }
+
+    .nav-links {
+      text-align: right;
+    }
+
+    .nav-links a {
+      color: #cccccc;
+      text-decoration: none;
+      margin-left: 28px;
+      font-size: 0.95rem;
+      font-weight: 500;
+      transition: color 0.2s;
+    }
+
+    .nav-links a:hover {
+      color: #212225;
+    }
+
+    .section-quiensoy {
+      background: #ffffff;
+      width: 100%;
+      padding: 60px 0;
+    }
+
+    .section-quiensoy > table {
+      width: 90%;
+      max-width: 1100px;
+      margin: 0 auto;
+      border-collapse: collapse;
+    }
+
+    .section-quiensoy td {
+      vertical-align: middle;
+      padding: 20px;
+    }
+
+    .td-image {
+      width: 50%;
+      text-align: center;
+    }
+
+    .td-image img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    .td-text {
+      width: 50%;
+      padding-left: 40px;
+    }
+
+    .td-text h2 {
+      font-size: 3rem;
+      font-weight: 900;
+      color: #251f1c;
+      margin-bottom: 20px;
+      line-height: 1.1;
+    }
+
+    .td-text p {
+      font-size: 1rem;
+      color: #444;
+      line-height: 1.7;
+      margin-bottom: 30px;
+    }
+
+    .btn-leer {
+      background-color: #2c2623;
+      color: #ffffff;
+      border: none;
+      padding: 14px 30px;
+      font-size: 1rem;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      cursor: pointer;
+      text-decoration: none;
+      transition: background 0.2s;
+    }
+
+    .btn-leer:hover {
+      background-color: #38322f;
+    }
+
+    /* ── SECTION 2: Perfil / Cita ── */
+    .section-perfil {
+      background-color: #292321;
+      width: 100%;
+      padding: 60px 20px;
+    }
+
+    .section-perfil > table {
+      width: 80%;
+      max-width: 900px;
+      margin: 0 auto;
+      border-collapse: collapse;
+    }
+
+    .section-perfil td {
+      text-align: center;
+      padding: 16px;
+    }
+
+    .avatar-wrapper img {
+      width: 220px;
+      height: 220px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 6px solid #ffffff;
+    }
+
+    .perfil-quote {
+      font-size: 1.4rem;
+      color: #ffffff;
+      line-height: 1.7;
+      font-weight: 500;
+      padding: 10px 20px;
+    }
+
+    .perfil-author {
+      font-size: 1.1rem;
+      color: #ffffff;
+      font-style: italic;
+      font-family: 'Lora', serif;
+      padding-top: 6px;
+    }
+
+    /* ── SECTION 3: Proyectos ── */
+    .section-proyectos {
+      background: #ffffff;
+      width: 100%;
+      padding: 60px 20px;
+    }
+
+    .section-proyectos h2 {
+      text-align: center;
+      font-size: 2.8rem;
+      font-weight: 900;
+      color: #333;
+      margin-bottom: 50px;
+    }
+
+    .proyectos-table {
+      width: 90%;
+      max-width: 1200px;
+      margin: 0 auto;
+      border-collapse: separate;
+      border-spacing: 20px 0;
+    }
+
+    .proyecto-card {
+      width: 25%;
+      vertical-align: top;
+      border: 1px solid #e0e0e0;
+      padding: 0;
+    }
+
+    .proyecto-card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .proyecto-card-body {
+      padding: 20px;
+      text-align: center;
+    }
+
+    .proyecto-card-body h3 {
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: #333;
+      margin-bottom: 12px;
+    }
+
+    .proyecto-card-body p {
+      font-size: 0.9rem;
+      color: #666;
+      line-height: 1.6;
+    }
+  </style>
+</body>
+</html>
